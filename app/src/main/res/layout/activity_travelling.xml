@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.newstudent.Travelling">
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="US is a good place for outing with friends and family."
+        android:maxLines="2"
+        android:fontFamily="sans-serif"
+        android:layout_margin="12dp"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are many ways to travel in US"
+        android:layout_margin="12dp"
+        android:fontFamily="sans-serif"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Own Car"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:fontFamily="casual"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rental Cars"
+        android:id="@+id/RC"
+        android:fontFamily="casual"
+        android:background="@drawable/sample"
+        android:onClick="RC"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amtrak"
+        android:id="@+id/Amtrak"
+        android:background="@drawable/sample"
+        android:fontFamily="casual"
+        android:onClick="Amtrak"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GreyHound"
+        android:background="@drawable/sample"
+        android:fontFamily="casual"
+        android:id="@+id/GH"
+        android:onClick="GH"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AirBus"
+        android:background="@drawable/sample"
+        android:fontFamily="casual"
+        android:id="@+id/AB"
+        android:onClick="AB"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="12dp"/>
+</LinearLayout>

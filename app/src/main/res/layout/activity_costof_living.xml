@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.newstudent.CostofLiving">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In springfield cost of living defers from place to place."
+        android:textSize="20dp"
+        android:minLines="2"
+        android:layout_margin="12dp"
+        android:fontFamily="casual"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are many places to live in springfield. One of them are"
+        android:textSize="20dp"
+        android:layout_margin="12dp"
+        android:fontFamily="casual"
+        android:minLines="2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chatham"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35dp"
+        android:fontFamily="cursive"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Westbrook"
+        android:textSize="35dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="cursive"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Downtown"
+        android:textSize="35dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="cursive"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can get info about these places in online "
+        android:textSize="20dp"
+        android:layout_margin="12dp"
+        android:fontFamily="casual"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Accomodation Finder"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="APTF"
+        android:background="@drawable/sample"
+        android:textColor="#000000"
+        />
+</LinearLayout>

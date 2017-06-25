@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#33691E">
+
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:text="There are many modes of transport facilities to travel in city."
+        android:layout_margin="16dp"
+        android:minLines="2"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus"
+        android:layout_margin="16dp"
+        android:background="@drawable/sample"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:onClick="Buses"
+        android:id="@+id/Buses"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cycling"
+        android:layout_margin="16dp"
+        android:background="@drawable/sample"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:onClick="Cycle"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Walk"
+        android:textColor="#000000"
+        android:fontFamily="casual"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rental Cars"
+        android:layout_margin="16dp"
+        android:background="@drawable/sample"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:onClick="RentalCars"
+        />
+
+
+
+</LinearLayout>
+

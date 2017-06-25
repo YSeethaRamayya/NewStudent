@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9C27B0"
+    tools:context="com.example.android.newstudent.Academics">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are two main streams in masters that our college provide"
+        android:minLines="2"
+        android:textSize="20dp"
+        android:layout_margin="16dp"
+        android:id="@+id/TextAcad"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Science"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="12dp"
+        android:background="@drawable/sample"
+        android:textSize="25dp"
+        android:id="@+id/CS"
+        android:onClick="CS"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sample"
+        android:text="Management Information Systems  "
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="12dp"
+        android:textSize="25dp"
+        android:id="@+id/MIS"
+        android:onClick="MIS"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apart from college courses you can learn from outside institues through online"
+        android:minLines="2"
+        android:textSize="19dp"
+        android:layout_margin="13dp"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udacity"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="12dp"
+        android:textSize="25dp"
+        android:background="@drawable/sample"
+        android:id="@+id/Udacity"
+        android:onClick="Udacity"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udemy"
+        android:background="@drawable/sample"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="12dp"
+        android:textSize="25dp"
+        android:id="@+id/Udemy"
+        android:onClick="Udemy"
+        />
+</LinearLayout>
